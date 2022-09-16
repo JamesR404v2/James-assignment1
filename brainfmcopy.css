@@ -1,0 +1,14 @@
+
+
+
+
+/* make the font for all text and all buttons white coloured on the entire page */
+
+body {
+	color: white;
+	font-family: 'Varela Round', "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input[type='button'] {
+	color: white;
+}
