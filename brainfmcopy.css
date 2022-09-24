@@ -10,5 +10,19 @@ body {
 }
 
 input[type='button'] {
-	color: white;
+	color: white; border: 0px;
+}
+
+/* further styles specific to each button */
+
+#button1style {
+    background-color: transparent; width:100px;height:45px;
+}
+
+#button2style {
+    background-image: linear-gradient(to right, #ea9e3d, #c76265 ); border-radius: 22px; width:131px;height:45px; margin-right: 100px;
+}
+
+#button3style {
+    background-image: linear-gradient(to right, #ea9e3d, #c76265 ); border-radius: 42px; width:145px;height:80px; margin-right: 100px; font-weight: bold;
 }
